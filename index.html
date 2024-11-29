@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Metadata and Page Configuration -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Prevents automatic formatting of specific content types -->
+    <meta name="format-detection" content="telephone=no, date=no, email=no, address=no" />
+
+    <!-- Page Title -->
+    <title>Telegram Mini App</title>
+
+    <!-- Stylesheet for the Mini App -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Telegram WebApp Script -->
+    <script src="https://telegram.org/js/telegram-web-app.js?56"></script>
+  </head>
+  <body>
+    <!-- Main App Container -->
+    <div id="app">
+      <!-- App Header -->
+      <h1>Telegram Mini App Demo</h1>
+
+      <!-- Content Section -->
+      <div id="content">
+        <!-- Display StartApp Parameter -->
+        <p>
+          <strong>StartApp Parameter:</strong>
+          <span id="startapp-param">Loading...</span>
+        </p>
+
+        <!-- Display Telegram Data -->
+        <p><strong>Telegram Data:</strong></p>
+        <pre id="telegram-data">Loading...</pre>
+
+        <!-- Version Support Status -->
+        <p>
+          <strong>Version Support:</strong>
+          <span id="version-support-status">Checking API version support...</span>
+        </p>
+
+        <!-- Home Screen Shortcut Status -->
+        <p>
+          <strong>Home Screen Status:</strong>
+          <span id="home-screen-status">Checking Home Screen status...</span>
+        </p>
+      </div>
+    </div>
+
+    <!-- JavaScript File for App Logic -->
+    <script src="script.js"></script>
+  </body>
+</html>

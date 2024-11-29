@@ -1,0 +1,58 @@
+/* 
+  Global Styles 
+  Setting up base styles for the entire page including font, background color, 
+  and layout alignment to center the content vertically and horizontally.
+*/
+body {
+  font-family: Arial, sans-serif; /* Use a clean, sans-serif font */
+  background-color: #ffffff; /* Set a white background */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  display: flex; /* Use flexbox for alignment */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  min-height: 100vh; /* Make sure the body takes up full viewport height */
+}
+
+/* 
+  Container Styles 
+  Styling the main container to limit its width and align text content.
+*/
+#app {
+  max-width: 600px; /* Limit the maximum width of the container */
+  width: 90%; /* Adjust width to be responsive on smaller screens */
+  text-align: center; /* Center-align all text within the container */
+}
+
+/* 
+  Header Styles 
+  Style for the main heading of the Mini App.
+*/
+h1 {
+  font-size: 24px; /* Set a readable font size for the header */
+  color: #333; /* Use a darker gray for better contrast */
+}
+
+/* 
+  Paragraph Styles 
+  General styles for paragraph elements to ensure consistent spacing and color.
+*/
+p {
+  font-size: 16px; /* Set a standard font size for paragraphs */
+  color: #555; /* Use a medium gray for text color */
+  margin: 10px 0; /* Add consistent vertical spacing */
+}
+
+/* 
+  Preformatted Text Styles 
+  Style for displaying parsed data or JSON in a readable format.
+*/
+pre {
+  text-align: left; /* Align preformatted text to the left */
+  background-color: #f4f4f4; /* Light gray background for better readability */
+  padding: 10px; /* Add padding for spacing inside the box */
+  border: 1px solid #ddd; /* Add a subtle border for separation */
+  border-radius: 4px; /* Round the corners of the box */
+  overflow-x: auto; /* Allow horizontal scrolling for long content */
+  font-size: 14px; /* Slightly smaller font size for detailed data */
+}
